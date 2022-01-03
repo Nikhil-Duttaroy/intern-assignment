@@ -1,0 +1,23 @@
+.custom-button{
+  /* min-width: fit-content; */
+  width: auto;
+  height: 2.5rem;
+  letter-spacing: 0.5px;
+  padding: 0 1.5rem 0 1.5rem;
+  font-size: 1rem;
+  border-radius: 28px;
+  background-color: transparent;
+  font-weight: 500;
+}
+
+.custom-button:hover{
+  font-weight: 550;
+}
+
+@media only screen and (max-width: 750px) {
+  .custom-button{
+      width: fit-content;
+      padding: 0 1rem
+
+  }
+}
